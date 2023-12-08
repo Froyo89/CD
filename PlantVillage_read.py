@@ -14,11 +14,18 @@ def load_images_from_folder(folder):
     return images
 
 folders = [
-    'Apple___Apple_scab',
-    'Apple___Black_rot',
-    'Apple___Cedar_apple_rust',
+    'Tomato___Septoria_leaf_spot',
+    'Tomato___Spider_mites Two-spotted_spider_mite',
+    'Tomato___Target_Spot',
+    'Tomato___Tomato_mosaic_virus',
+    'Tomato___Tomato_Yellow_Leaf_Curl_Virus',
+    'Tomato___Bacterial_spot',
+    'Tomato___Early_blight',
+    'Tomato___healthy',
+    'Tomato___Late_blight',
+    'Tomato___Leaf_Mold'
 ]
 
 for folder in folders:
-    images = load_images_from_folder("E:/datasets/PlantVillage-Dataset/raw/color/" + folder)
+    images = load_images_from_folder("C:/PLANT/PlantVillage-Dataset/raw/grayscale/" + folder)
     # your code that does something with the return images goes here
